@@ -1,0 +1,54 @@
+{
+  "name": "ts-microservices",
+  "version": "1.0.0",
+  "description": "a playhround to experiment microservices written with typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfgoto/ts-microservices.git"
+  },
+  "keywords": [
+    "typescript",
+    "microservice",
+    "serverless",
+    "node",
+    "express",
+    "docker",
+    "pm2",
+    "swagger"
+  ],
+  "author": "goto florian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nfgoto/ts-microservices/issues"
+  },
+  "homepage": "https://github.com/nfgoto/ts-microservices#readme",
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/config": "0.0.34",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/cors": "^2.8.4",
+    "@types/debug": "0.0.31",
+    "@types/express": "^4.16.1",
+    "@types/node": "^10.12.18",
+    "@types/reflect-metadata": "^0.1.0",
+    "@types/rimraf": "^2.0.2",
+    "@types/winston": "^2.4.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "config": "^3.0.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^2.6.3",
+    "routing-controllers": "^0.7.7",
+    "typescript": "^3.2.4",
+    "winston": "^3.1.0"
+  }
+}
